@@ -1,0 +1,11 @@
+Data in intents.json is Training data
+
+Create file nltk_utils.py : 
+1. conda activate pytorch
+2. pip install nltk
+3. pip show nltk
+In code nltk.download('punkt')
+
+Create train.py
+Create model.py
+Create chat.py

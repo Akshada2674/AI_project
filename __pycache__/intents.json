@@ -1,0 +1,167 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey there"
+        ],
+        "responses": [
+          "Hello! How can I assist you with women's schemes today?",
+          "Hi there! What information do you need about women's schemes?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye"
+        ],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Thank's a lot!",
+          "ok",
+          "Okay"
+        ],
+        "responses": [
+          "Happy to help!",
+          "Any time!",
+          "My pleasure"
+        ]
+      },
+      
+      {
+        "tag": "details",
+        "patterns": [
+          "What is the ladki_bahin_scheme?",
+          "Tell me about the scheme",
+          "Scheme name"
+        ],
+        "responses": [
+          "The scheme 'Mukhyamantri - Majhi Ladki Bahin Yojana' was launched by the Women and Child Development Department, Government of Maharashtra. The scheme aims to give economic freedom to women in the state age group of 21 to 65 years, improving their health and nutrition and strengthening their decisive role in the family. Women will receive a financial benefit of ₹1,500/- through direct benefit transfer (DBT)."
+        ]
+      }
+      ,
+      {
+        "tag": "objective",
+        "patterns": [
+          "What is the objective of the ladki bahin scheme?",
+          "Scheme objective",
+          "Purpose of the scheme"
+        ],
+        "responses": [
+          "The objective is to provide benefits to women aged 21-60 who are widowed, divorced, abandoned, or without support in Maharashtra."
+        ]
+      },
+      {
+        "tag": "eligibility",
+        "patterns": [
+          "What are the eligibility criteria?",
+          "Who can apply?",
+          "Eligibility for the scheme"
+        ],
+        "responses": [
+          "Eligibility criteria are as follows:\n\n- The applicant should be a female.\n- The applicant should be a resident of Maharashtra state.\n- The applicant's age should be between 21-65 years.\n- The applicant should have their bank account linked with Aadhaar.\n- The annual income of the applicant's family should not exceed ₹2,50,000/-. Outsourced employees, voluntary workers, and contract workers with income up to ₹2,50,000/- are eligible.\n- The applicant should be any one of the following:\n  - Married Woman\n  - Widowed\n  - Divorced Woman\n  - Abandoned and Destitute Women\n  - One Unmarried Woman in the family"
+        ]
+      }
+      ,
+      {
+        "tag": "benefits",
+        "patterns": [
+          "What are the benefits?",
+          "Scheme benefits",
+          "What do I get from the scheme?"
+        ],
+        "responses": [
+          "Financial Assistance of ₹1,500/- per month."
+        ]
+      },
+      {
+        "tag": "application_process",
+        "patterns": [
+          "How to apply?",
+          "Application process",
+          "How can I apply for the scheme?"
+        ],
+        "responses": [
+          "You can apply online or get assistance through local centers such as Anganwadi and Gram Panchayat offices.\n\n**Online Registration Process:**\n\n1. The interested applicant visits the official website https://ladakibahin.maharashtra.gov.in/ .\n2. Select 'Applicant Login' and click on 'Create Account.'\n3. Complete the registration form with the following details: Full Name as per Aadhaar, Mobile No, Password, Confirm Password, District, Taluka, Village, Municipal Corporation / Council, Authorized Person & Accept Terms and Conditions.\n4. Enter the Captcha code and click 'Sign-up.' You will receive an OTP.\n5. Enter the OTP and the Captcha code again.\n6. Click 'Verify the OTP' to receive a message confirming that your login was successful.\n\n**Application Process:**\n\n1. Log in to the portal using your Mobile number, Password, and Captcha.\n2. Click on 'Application of Mukhyamantri - Majhi Ladki Bahin Yojana' and enter your Aadhaar Number and Captcha.\n3. Click on 'Valid Aadhaar' and complete the registration form with the applicant's name, bank details, and permanent address.\n4. Upload relevant documents such as an Aadhaar card, Domicile certificate, Ration card, etc.\n5. Click 'Submit' to receive your application ID via SMS.\n\n**Check the Status:**\n\n1. Log in to the portal using your Mobile number, Password, and Captcha.\n2. Click on 'Applications Made Earlier' to view the status of your applications."
+        ]
+      }
+      ,
+      {
+        "tag": "required_documents",
+        "patterns": [
+          "What documents are required?",
+          "Required documents",
+          "Documents needed for application"
+        ],
+        "responses": [
+          "You will need the following documents for the application:\n\n1. Photograph of the Beneficiary Woman\n2. Aadhaar Card\n3. Domicile Certificate (If the Domicile Certificate is not available, you can submit any one of the following: Ration Card issued before 15 years, Voter ID card issued before 15 years, Birth Certificate, or School Leaving Certificate).\n4. For Women Born Abroad (Submit the Husband's Ration Card issued before 15 years, Voter ID card issued before 15 years, Birth Certificate, School Leaving Certificate, or Domicile Certificate).\n5. Income Certificate (Not required if the woman has a Yellow or Orange Ration Card. Required if the woman has a White Ration Card or no Ration Card).\n6. Marriage Certificate (If your name is not listed on the Ration Card and you are newly married, your husband’s Ration Card can be used as proof of income).\n7. Bank Account Details (account should be Aadhaar-linked).\n8. Affirmation Letter."
+        ]
+      }
+      ,
+      {
+        "tag": "important_dates",
+        "patterns": [
+          "What are the important dates?",
+          "Scheme dates",
+          "Application dates"
+        ],
+        "responses": [
+          "Important dates are:\n- Application start: July 1, 2024\n- Application end: September 31, 2024\n- Temporary list publication: July 20, 2024\n- Objection resolution period: July 29, 2024\n- Final list publication: August 5, 2024\n- e-KYC completion: July 30, 2024\n- Fund transfer: August 14, 2024"
+        ]
+      },
+      {
+        "tag": "contact_information",
+        "patterns": [
+          "Who to contact for assistance?",
+          "Contact information",
+          "Help with application"
+        ],
+        "responses": [
+          "The women's helpline toll-free contact number is 181. The Women and Child Development Commissionerate Pune will set up a call center to assist applicants and resolve any issues related to the scheme."
+        ]
+      },
+      {
+        "tag": "faqs",
+        "patterns": [
+          "Where can I find FAQs?",
+          "FAQs",
+          "Frequently asked questions"
+        ],
+        "responses": [
+          "Here are some frequently asked questions about the Mukhyamantri - Majhi Ladki Bahin Yojana:\n\n1. **What is the Mukhyamantri - Majhi Ladki Bahin Yojana?**\n   This scheme is aimed at providing financial and social support to economically weaker women in Maharashtra, especially those facing hardships.\n\n2. **Who is eligible to apply for the scheme?**\n   Women who are residents of Maharashtra and belong to economically weaker sections are eligible, provided they meet the scheme's specific criteria.\n\n3. **Is there any fee to apply for the scheme?**\n   No, the application process is free of charge. No money or fee should be paid to anyone for applying.\n\n4. **How will I know if I am selected for the scheme?**\n   Selected beneficiaries will receive an SMS notification. The final list of beneficiaries will also be published at the local level.\n\n5. **How are the benefits disbursed?**\n   Benefits are disbursed through direct bank transfers to the beneficiaries' accounts.\n\n6. **Is there a helpline for the scheme?**\n   Yes, the women's helpline toll-free contact number is 181. The Women and Child Development Commissionerate Pune will set up a call center to assist applicants and resolve any issues related to the scheme.\n\n7. **How can I apply for the scheme?**\n   Applications can be submitted online through the official portal. You must register on the portal, complete your profile, and fill out the application form with all the required details and documents.\n\n8. **What documents are required for the application?**\n   Essential documents include an Aadhaar card, domicile certificate, income certificate, marriage certificate, and bank account details. Additional documents may be required depending on the specific circumstances of the applicant.\n\n9. **What is the process after submitting the application?**\n   After submission, applications are scrutinized by a Taluka/Ward level committee, and a provisional list of eligible beneficiaries is prepared. Applicants will be notified via SMS.\n\n10. **Who reviews the applications at the local level?**\n    Applications are reviewed by a Taluka/Ward level committee, which includes non-governmental members selected by the district's guardian minister."
+        ]
+      }
+      ,
+      {
+        "tag": "official_links",
+        "patterns": [
+          "Where can I find more information?",
+          "Official links",
+          "Scheme details",
+          "Which app",
+          "Which site",
+          "What website"
+        ],
+        "responses": [
+          "Apply by using the app: NariShakti Doot App or by official website https://ladakibahin.maharashtra.gov.in/ ",
+          "More information can be found at: https://govtsoochna.com/majhi-ladki-bahin-yojana-online-apply-2024/"
+        ]
+      }
+    ]
+  }
+      
+        
